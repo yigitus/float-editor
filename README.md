@@ -1,4 +1,7 @@
 # Float Editor
+<h1 align="center">
+  <img src="public/icons/icon.png" width=200 height=200/><br>
+</h1>
 
 Float Editor is a minimalistic, browser-based code editor designed to allow developers to write HTML, CSS, and JavaScript while viewing a full-width and full-height preview of their work. Unlike traditional editors, each editor panel "floats" independently, giving users an unobstructed view of the output page in real-time. This unique approach makes it easy to build responsive, immersive layouts without the constraints of a split-screen setup.
 
