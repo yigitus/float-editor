@@ -31,6 +31,7 @@ Float Editor is a minimalistic, browser-based code editor designed to allow deve
 │   │   ├── previewManager.js # Manages preview iframe and source updates
 │   └── utils/                # Folder for utilities
 │       ├── editorConfig.js   # Configuration for editors (e.g., theme settings)
+│       ├── initialValues.js  # Initial values for each editor window.
 ├── style.css
 └── vite.config.js
 ```
@@ -43,7 +44,7 @@ Make sure you have Node.js installed on your system. [You can download Node.js f
 ### Installation
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/float-editor.git
+git clone https://github.com/yigitus/float-editor.git
 cd float-editor
 ```
 2. Install dependencies:
@@ -67,6 +68,7 @@ git checkout -b feature/your-feature-name
 4. Push to your fork and submit a Pull Request.
 
 Please check the issues page for tasks that need help, or feel free to suggest your own improvements.
+Also please create a feature request to first discuss any new ideas before implementing them so that you don't waste time on a change that won't be approved.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/yigitus/float-editor/blob/main/LICENSE) file for details.

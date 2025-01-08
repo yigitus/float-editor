@@ -24,27 +24,25 @@ body {
   top: 0;
   transform: translateY(calc(-40px - 1rem));
   align-self: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 10px 10px;
   z-index: 100;
   transition: background-color 0.2s, transform 0.2s;
-  padding-top: 16px;
-  padding-bottom: 8px;
   user-select: none;
 }
 
-#top-panel:hover {
+#top-panel:has(.down-indicator:hover), #top-panel:hover {
   background-color: rgba(0, 0, 0, 1);
   transform: translateY(0);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+
 }
 
-#top-panel:hover .down-indicator {
+#top-panel .down-indicator:hover {
   opacity: 1;
   transition: opacity 0.1s;
 }
 
-#top-panel:hover .down-indicator {
+#top-panel .down-indicator:hover {
   opacity: 0;
 }
 
@@ -60,8 +58,12 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 60px;
+  align-self: center;
+  padding-top: 16px;
   padding-bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 #top-panel-buttons{
