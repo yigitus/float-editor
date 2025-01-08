@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   top: 0;
-  transform: translateY(calc(-32px - 1rem));
+  transform: translateY(calc(-40px - 1rem));
   align-self: center;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
